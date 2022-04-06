@@ -1,0 +1,147 @@
+.home {
+  position: relative;
+  height: 100vh;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.account-form {
+  background-color: #6cc3d5;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-inner {
+  background-color: white;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.home-inner form {
+  width: 70%;
+}
+
+.home-inner h1 {
+  color: #6cc3d5;
+}
+
+.home-inner h4,
+.home-inner p {
+  color: #333;
+}
+
+.spinner-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.icon-input-border {
+  border-radius: 0.4rem 0rem 0rem 0.4rem;
+}
+
+.no-select {
+  user-select: none;
+  user-zoom: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+.eye-icon {
+  border-radius: 0rem 0.4rem 0.4rem 0rem;
+  cursor: pointer;
+}
+
+.eye-icon:hover {
+  background-color: #d8d8de;
+}
+
+/* Post button */
+.post-button {
+  padding-top: 0;
+  background: transparent;
+  border: none;
+}
+
+.post-button:hover {
+  background: transparent;
+}
+
+a.post-button.btn:focus,
+a.post-button.btn:active {
+  outline: none;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+button.post-button.btn:focus,
+button.post-button.btn:active {
+  outline: none;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* Floating add button */
+.btn-floating {
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  background: transparent;
+  border: none;
+}
+
+.btn-floating:hover {
+  background: transparent;
+}
+
+.btn-floating:focus,
+.btn-floating:active {
+  outline: none;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* Add new post tooltip */
+.tooltip {
+  background: transparent;
+}
+
+.tooltip .arrow::before {
+  border-left-color: #6cc3d5;
+}
+
+.tooltip-inner {
+  background: #6cc3d5;
+}
+
+/* Post border thicker */
+.border-success,
+.border-warning,
+.border-info {
+  border-width: 2px;
+}
+
+/* Post title */
+.post-title {
+  margin-bottom: 0.5rem;
+}
