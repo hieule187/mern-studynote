@@ -4,7 +4,6 @@ import Nav from 'react-bootstrap/Nav';
 import studyNoteLogo from '../../assets/logo.svg';
 import userIcon from '../../assets/person-circle.svg';
 import logoutIcon from '../../assets/logout.svg';
-import Button from 'react-bootstrap/Button';
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthContext';
@@ -59,17 +58,13 @@ const NavbarMenu = () => {
         </Nav>
 
         <Nav>
-          <Nav.Link
-            variant="info"
-            onClick={logout}
-          >
+          <Nav.Link variant="info" onClick={logout}>
             <img
               src={logoutIcon}
               alt="logoutIcon"
               width="30"
               height="30"
               className="no-select"
-
             />
           </Nav.Link>
         </Nav>
